@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet:400,300");
 
+@font-face {
+  font-family: 'typicons';
+  src: url("path/to/typicons.eot");
+  src: url("path/to/typicons.eot?#iefix") format('embedded-opentype'),
+       url("path/to/typicons.woff") format('woff'),
+       url("path/to/typicons.ttf") format('truetype'),
+       url("path/to/typicons.svg#typicons") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Base Styles
 ********************************************************************* */
 html {
@@ -11,17 +22,6 @@ body {
 	font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 	color: #222;
-}
-
-@font-face {
-  font-family: 'typicons';
-  src: url("path/to/typicons.eot");
-  src: url("path/to/typicons.eot?#iefix") format('embedded-opentype'),
-       url("path/to/typicons.woff") format('woff'),
-       url("path/to/typicons.ttf") format('truetype'),
-       url("path/to/typicons.svg#typicons") format('svg');
-  font-weight: normal;
-  font-style: normal;
 }
 /* Grid
 ********************************************************************* */  
